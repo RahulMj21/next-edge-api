@@ -7,7 +7,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "cf:build": "npx @cloudflare/next-on-pages --experimental-minify"
+        "cf:build": "pnpm dlx @cloudflare/next-on-pages --experimental-minify"
     },
     "dependencies": {
         "@cloudflare/next-on-pages": "^0.10.1",
